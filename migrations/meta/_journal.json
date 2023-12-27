@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1703694518740,
+      "tag": "0000_whole_luminals",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1703696187182,
+      "tag": "0001_mighty_wallow",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1703697374766,
+      "tag": "0002_nebulous_aaron_stack",
+      "breakpoints": true
+    }
+  ]
+}
