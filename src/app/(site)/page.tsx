@@ -280,13 +280,14 @@ const HomePage = () => {
         sm:items-stretch
         items-center
         mt-10
+        mb-20
         "
         >
           {PRICING_CARDS.map((card) => (
             <CustomCard
               key={card.planType}
               className={clsx(
-                "w-[320px] rounded-2xl dark:bg-black/40 background-blur-3xl relative",
+                "w-[330px] rounded-2xl dark:bg-black/40 background-blur-3xl relative",
                 {
                   "border-brand-primaryPurple/70":
                     card.planType === PRICING_PLANS.proplan,
@@ -325,7 +326,7 @@ const HomePage = () => {
                     text-2xl
                 "
                   >
-                    ${card.price}
+                    €{card.price}
                   </span>
                   {+card.price > 0 ? (
                     <span className="dark:text-washed-purple-800 ml-1">
